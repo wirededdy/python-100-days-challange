@@ -14,9 +14,9 @@ if height >= 120:
     else:
         price =7
         print("You will pay $7")
-    photos = int(input("Please do you want Photos? "))
-    if photos.lower() =="yes":
-        price+=3
+    photos = (input("Please do you want Photos? "))
+    if photos.lower() == "yes":
+        price += 3
         print("You will pay $3")
     total= price
     print(f"Your total price is {price}")
