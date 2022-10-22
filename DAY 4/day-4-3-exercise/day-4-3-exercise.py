@@ -9,7 +9,13 @@ position = input("Where do you want to put the treasure? ")
 
 #Write your code below this row 👇
 
-
+lst = []
+lst.extend(position)
+num1 = int(lst[1])
+num2 = int(lst[0])
+value_1 = num1-1
+value2= num2-1
+map[value_1][value2] = "X"
 
 
 
