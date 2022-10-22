@@ -46,5 +46,5 @@ elif com_pick == 1 and player_pick == 0:
     print("Computer WON 😁")
 elif com_pick == 2 and player_pick == 1:
     print("Player 1 has WON 😁")
-elif com_pick < player_pick :
+elif com_pick < player_pick:
     print("Player 1 has WON 😁")
