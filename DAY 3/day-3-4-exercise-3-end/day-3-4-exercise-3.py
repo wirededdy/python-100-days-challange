@@ -12,22 +12,23 @@ if size == "s":
     print("price is $15")
     if add_pepperoni == "y":
         price += 2
-        print("price is $2")
+        print("price add $2")
 elif size == "m":
     price += 20
     print("price is $20")
     if add_pepperoni == "y":
         price += 3
-        print("price is $3")
+        print("price add $3")
 else:
     price += 25
     print("price is $25")
     if add_pepperoni == "y":
         price += 3
-        print("price is $3")
+        print("price add $3")
 
 if extra_cheese == "y":
     price += 1
+    print("price add $1")
 Total = price
 print(f"Your total cost is {price}")
 
