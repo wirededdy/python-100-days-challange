@@ -26,4 +26,14 @@ scissors = '''
 '''
 
 #Write your code below this line 👇
-
+import random
+pick = random.randint(0,2)
+if pick == 0:
+    print(rock)
+    print("rock")
+elif pick == 1:
+    print(paper)
+    print("paper")
+else:
+    print(scissors)
+    print("scissors")
